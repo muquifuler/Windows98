@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'win98';
+    src: url("./fonts/Windows\ Regular.ttf");
+}
+
+body{
+    background-color: #008282;
+    height: 100vh;
+    margin: 0;
+    font-family:serif;
+}
+
+/* Init */
+
+.img_init{
+    margin-top: 35vh;
+    width: 30vh;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 3px;
+}
+.img_init:hover{
+    opacity: 100%;
+    box-shadow: 0px 0px 400px #00ffff, 0px 0px 10px #008282;
+    transition-duration: 0.5s;
+}
+
+/* Web */
+
+section{
+    position: absolute;
+    z-index: 3;
+    margin-left: 20vw;
+    margin-top: 20vh;
+    background-color: #c0c0c0;
+    padding: 1px;
+    border-top: solid 1px #f1f1f0;
+    border-left: solid 1px #f1f1f0;
+    border-bottom: solid 1px #5a5b5a;
+    border-right: solid 1px #5a5b5a;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0),1px 1px 0px 0px #000000,-1px -1px 0px 0px #fafafa;
+    width: 42vw;
+    height: 60vh;
+}
+.dos{
+    margin-top: 0.2vh;
+}
+.section-title{
+    padding: 2px;
+}
+.title{
+    color: #f5fcfc;
+    font-weight: 600;
+    font-size: 1.7vh;
+}
+.section-buttons{
+    margin-left: auto;
+    padding: 2px;
+}
+.btn-section{
+    background-color: #c0c0c0;
+    padding: 1px;
+    border-top: solid 1px #f1f1f0;
+    border-left: solid 1px #f1f1f0;
+    border-bottom: solid 1px #5a5b5a;
+    border-right: solid 1px #5a5b5a;
+    width: 1vw;
+}
+header{
+    width: 98%;
+    background-color: #010081;
+    display: flex;
+    height: 4%;
+    padding: 1%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+}
+
+main{
+    width: 100%;
+    height: 96%;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 3%;
+    display: flex;
+    background-color: #c0bfc1;
+    z-index: 2;
+    border-top: solid 1px #f1f1f0;
+    bottom: 0;
+    position: fixed;
+    padding: 3px;
+}
+
+nav{
+    width: 9%;
+    padding: 10px;
+    
+}
+
+.btn-nav{
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    width: 65%;
+    padding-top: 6%;
+    background-color: transparent;
+    border: dashed 1px #00000000;
+}
+.btn-nav:active{
+    border: dashed 1px #000000;
+}
+
+.img-nav{
+    width: 60%;
+}
+
+p{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    color: #e5fafa;
+    font-family: 'win98';
+    font-size: 1.8vh;
+}
+
+aside{
+    width: 92%;
+}
+
+.div-start{
+    width: 4%;
+    
+}
+.start{
+    height: 100%;
+    width: 100%;
+    border: none;
+    display: flex;
+    background-color: #c0bfc0;
+    border-top: solid 1px #f1f1f0;
+    border-left: solid 1px #f1f1f0;
+    border-bottom: solid 1px #5a5b5a;
+    border-right: solid 1px #5a5b5a;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0),1px 1px 0px 0px #000000,-1px -1px 0px 0px #fafafa;
+}
+.start:active{
+    border-top: solid 1px #5a5b5a;
+    border-left: solid 1px #5a5b5a;
+    border-bottom: solid 1px #f1f1f0;
+    border-right: solid 1px #f1f1f0;
+    box-shadow:inset 0px 0px 1px rgb(0, 0, 0),inset 1px 1px 0px 0px #000000,inset -1px -1px 0px 0px #fafafa;
+}
+.img-start{
+    width: 100%;
+    height: 100%;
+}
+.div-bar{
+    width: 90%;
+    margin-left: 0.4vw;
+    height: 100%;
+}
+.div-time{
+    width: 5%;
+    height: 75%;
+    border-top: solid 1px #5a5b5a;
+    border-left: solid 1px #5a5b5a;
+    border-bottom: solid 1px #f1f1f0;
+    border-right: solid 1px #f1f1f0;
+    text-align: center;
+    padding-top: 0.5vh;
+}
+h5{
+    margin: 0;
+}
+.programs-bar{
+    height: 100%;
+    width: 20vw;
+    text-align: left;
+    background-image: url("./img/newicons/descarga.png");
+    font-family:serif;
+    font-size: 1.7vh;
+    font-weight: 600;
+    border-top: solid 1px #5a5b5a;
+    border-left: solid 1px #5a5b5a;
+    border-bottom: solid 1px #f1f1f0;
+    border-right: solid 1px #f1f1f0;
+    box-shadow:inset 0px 0px 1px rgb(0, 0, 0),inset 1px 1px 0px 0px #000000,inset -1px -1px 0px 0px #fafafa;
+}
+.menu-start{
+    background-color: #c0c0c0;
+    height: 50vh;
+    width: 15vw;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    margin-bottom: 1.8%;
+    margin-left: 0.3%;
+    display: none;
+    border-top: solid 1px #f1f1f0;
+    border-left: solid 1px #f1f1f0;
+    border-bottom: solid 1px #5a5b5a;
+    border-right: solid 1px #5a5b5a;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0),1px 1px 0px 0px #000000,-1px -1px 0px 0px #fafafa;
+}
+.menu-aside{
+    height: 100%;
+    width: 18%;
+    background-color: #817f82;
+}
+.menu-main{
+    height: 100%;
+    width: 100%;
+}
+.btn-menu{
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: left;
+    background-color: transparent;
+    font-size: 1.8vh;
+    font-family: 'win98';
+    display: flex;
+    margin-top: 1vh;
+    padding-top: 0.5vh;
+}
+.btn-menu:hover{
+    background-color: #00007c;
+    color: #fefefe;
+}
+.img-menu{
+    height: 4vh;
+}
+.text-menu{
+    margin-left: 1vw;
+    display: block;
+    margin-top: 0.8vh;
+}
+/* Pages */
+
+.content{
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 96%;
+}
+
+.p-title{
+    width: 90%;
+    margin-top: 2vh;
+    height: 10%;
+}
+
+.img-welcome{
+    border-top: solid 1px #5a5b5a;
+    border-left: solid 1px #5a5b5a;
+    border-bottom: solid 1px #f1f1f0;
+    border-right: solid 1px #f1f1f0;
+    height: 100%;
+}
+
+.p-title-text{
+    font-size: 4vh;
+}
+.p-content{
+    display: flex;
+    height: 82%;
+}
+.p-subcontent1{
+    width: 79%;
+}
+.p-subcontent2{
+    width: 21%;
+    text-align: center;
+}
+.btn-p-subcontent2{
+    width: 100%;
+    border-top: solid 1px #f1f1f0;
+    border-left: solid 1px #f1f1f0;
+    border-bottom: solid 1px #5a5b5a;
+    border-right: solid 1px #5a5b5a;
+    background-color: #c0c0c0;
+    font-size: 1.7vh;
+    margin-bottom: 1vh;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+    box-shadow: 1px 1px 0px 0px #000000;
+}
+.btn-p-subcontent2:active{
+    border-top: solid 1px #5a5b5a;
+    border-left: solid 1px #5a5b5a;
+    border-bottom: solid 1px #f1f1f0;
+    border-right: solid 1px #f1f1f0;
+    box-shadow:inset 0px 0px 1px rgb(0, 0, 0),inset 1px 1px 0px 0px #000000,inset -1px -1px 0px 0px #fafafa;
+}
+hr{
+    margin-bottom: 1.5vh;
+}
+.text-weight{
+    font-weight: 600;
+}
+.text-white{
+    color: white;
+}
+.close{
+    border: dashed 1px #000000;
+    width: 100%;
+}
+.imgico-section{
+    height: 100%;
+    margin-right: 0.3vw;
+}
